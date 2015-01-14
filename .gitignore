@@ -1,0 +1,10 @@
+/image
+/components
+/.monaca
+/merges
+/platforms
+/plugins
+*.html
+*jquery*.js
+*.txt
+*.xml
