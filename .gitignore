@@ -1,5 +1,5 @@
-/image
-/components
+www/image
+www/components
 /.monaca
 /merges
 /platforms
@@ -8,3 +8,7 @@
 *jquery*.js
 *.txt
 *.xml
+*.css
+*reload*.js
+*thousandSeparator.js
+*.gitignore*
