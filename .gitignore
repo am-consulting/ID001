@@ -11,4 +11,6 @@ www/components
 *.css
 *reload*.js
 *thousandSeparator.js
-*.gitignore*
+*gitignore*
+*jqplot*
+*excanvas*
