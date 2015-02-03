@@ -263,7 +263,7 @@ function calculation(){
 		thousandSeparator();
 		resultOuPut01();resultOuPut02();clearBox('chart');graph01();
 	}else{
-		document.form1.finalcostKouji.value="注)直接工事費、工期を共に入力";
+		window.alert("注)工事費、工期を共に入力");
 	}	
 }
 
