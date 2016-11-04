@@ -261,7 +261,7 @@ function calculation(){
 		number[12]=costTumiageGenbaKanri;
 		z=13;
 		thousandSeparator();
-		resultOuPut01();resultOuPut02();clearBox('chart');graph01();
+		resultOuPut01();resultOuPut02();//clearBox('chart');graph01();
 	}else{
 		window.alert("注)工事費、工期を共に入力");
 	}	
