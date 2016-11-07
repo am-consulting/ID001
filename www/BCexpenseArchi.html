@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Cache-Control" content="no-cache">
 <meta http-equiv="Expires" content="0">
@@ -36,7 +37,7 @@ $(window).on('load',function(){
 
 $(window).resize(function(){
 var w = $(window).width();
-var x = 800;
+var x = 700;
 if (w <= x) {
 	$('#contents').css("width", "100%");
 } else {
@@ -47,7 +48,7 @@ if (w <= x) {
 
 $(function() {
     var w = $(window).width();
-    var x = 800;
+    var x = 700;
 if (w <= x) {
 	$('#contents').css("width", "100%");
 } else {
