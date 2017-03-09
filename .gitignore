@@ -1,5 +1,6 @@
-# gitignore定期更新:20161107
+# gitignore定期更新:20170309
 
+www/document
 www/image
 www/components
 /.monaca
